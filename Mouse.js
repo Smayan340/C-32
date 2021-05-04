@@ -1,6 +1,6 @@
 class Mouse extends BaseClass {
   constructor(x, y){
-    super(x,y,50,50);
+    super(x,y,100,100);
     this.image = loadImage("mouse1.png");
     this.Visiblity = 255;
   }
