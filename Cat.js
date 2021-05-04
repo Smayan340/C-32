@@ -1,6 +1,6 @@
 class Cat extends BaseClass {
   constructor(x,y){
-    super(x,y,50,50);
+    super(x,y,200,200);
     this.image = loadImage("cat3.png");
     this.smokeImage = loadImage("smoke.png");
     this.trajectory =[];
